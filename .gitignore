@@ -1,0 +1,11 @@
+# Ignore database credentials
+db.properties
+
+# Ignore compiled files
+bin/
+*.class
+
+# Ignore IDE files
+.settings/
+.project
+.classpath
