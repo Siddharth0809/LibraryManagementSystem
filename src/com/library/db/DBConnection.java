@@ -11,9 +11,6 @@ public class DBConnection {
       + "&allowPublicKeyRetrieval=true"
       + "&serverTimezone=UTC";
 
-    private static final String USER = "ShiddharthLMS";
-    private static final String PASS = "Sidd@1234";
-
     public static Connection getConnection() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
